@@ -13,6 +13,27 @@ li {
 img {
   max-width: 100%; }
 
+.home ul {
+  padding: 0%;
+  background-color: #D0D0D0;
+  border-radius: 10px; }
+  .home ul .boton-negro {
+    background: black;
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px; }
+    .home ul .boton-negro a {
+      color: white; }
+      .home ul .boton-negro a:hover {
+        background: #333333; }
+  .home ul li {
+    display: inline-block; }
+    .home ul li a {
+      padding: 5px;
+      color: black;
+      font-size: 12px; }
+      .home ul li a:hover {
+        background-color: #b7b7b7; }
+
 header {
   background-color: #D0D0D0;
   padding: 1% 0% 2% 0%;
