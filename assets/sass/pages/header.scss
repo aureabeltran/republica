@@ -1,0 +1,82 @@
+header{
+	background-color: $main-gray;
+	padding: 1% 0% 2% 0%;
+	border-bottom: 1px solid #7C7C7C;
+	ul{
+		padding: 0%;
+		li{
+			display: inline-block;
+			font-size: 10px;
+			padding: 5px;
+		}
+	}
+	.botones{
+		padding: 1%;
+		.suscribete{
+			background-color: $main-red;
+			color: white;
+			padding: 4px;
+			border-radius: 7px;
+			&:hover{
+				background-color: darken($main-red, 10%);
+				color: white;
+				font-weight: bold;
+			}
+		}
+		.fa-facebook{
+			@include colores-iconos(#151493);
+		}
+		.fa-twitter{
+			@include colores-iconos(#4EB5D6);
+		}
+		.fa-google-plus{
+			@include colores-iconos($main-red);
+		}
+		.fa-envelope{
+			@include colores-iconos(#FCCC50);
+		}
+		.fa-rss{
+			@include colores-iconos(#F66B23);
+		}
+		.search{
+			background-color: transparent;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			padding: 5px;
+			font-weight: bold;
+			&:hover{
+				background-color: darken($main-gray, 10%);
+			}
+		}
+	}
+}
+section{
+	padding: 2% 0% 2% 0%;
+}
+nav{
+	.container{
+		background-color: $main-red;
+		ul{
+			padding: 0%;
+			margin-bottom: 0%;
+			text-align: center;
+			li{
+				display: inline-block;
+				padding: 10px 5px 5px 5px;
+				a{
+					color: white;
+					font-family: Oswald;
+					padding: 8px 8px 5px 8px;
+					i{
+						padding: 5px;
+					}
+					&:hover{
+						text-decoration: none;
+						background-color: darken($main-red, 15%);
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}

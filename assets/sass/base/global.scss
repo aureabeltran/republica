@@ -1,0 +1,16 @@
+*{
+	font-family: Open Sans;
+}
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+li{
+	list-style: none;
+	
+}
+img{
+		max-width:100%;
+	}

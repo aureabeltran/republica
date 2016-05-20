@@ -1,0 +1,10 @@
+@mixin colores-iconos($colores){
+	font-size: 18px;
+	color: $colores;
+	padding: 5px;
+	&:hover{
+		font-weight: bold;
+		color: darken($colores, 20%);
+	}
+}
+

@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Open+Sans);
+* {
+  font-family: Open Sans; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+header {
+  background-color: #D0D0D0;
+  padding: 1% 0% 2% 0%;
+  border-bottom: 1px solid #7C7C7C; }
+  header ul {
+    padding: 0%; }
+    header ul li {
+      display: inline-block;
+      font-size: 10px;
+      padding: 5px; }
+  header .botones {
+    padding: 1%; }
+    header .botones .suscribete {
+      background-color: #B61D1D;
+      color: white;
+      padding: 4px;
+      border-radius: 7px; }
+      header .botones .suscribete:hover {
+        background-color: #8a1616;
+        color: white;
+        font-weight: bold; }
+    header .botones .fa-facebook {
+      font-size: 18px;
+      color: #151493;
+      padding: 5px; }
+      header .botones .fa-facebook:hover {
+        font-weight: bold;
+        color: #080839; }
+    header .botones .fa-twitter {
+      font-size: 18px;
+      color: #4EB5D6;
+      padding: 5px; }
+      header .botones .fa-twitter:hover {
+        font-weight: bold;
+        color: #247e9a; }
+    header .botones .fa-google-plus {
+      font-size: 18px;
+      color: #B61D1D;
+      padding: 5px; }
+      header .botones .fa-google-plus:hover {
+        font-weight: bold;
+        color: #5e0f0f; }
+    header .botones .fa-envelope {
+      font-size: 18px;
+      color: #FCCC50;
+      padding: 5px; }
+      header .botones .fa-envelope:hover {
+        font-weight: bold;
+        color: #e2a404; }
+    header .botones .fa-rss {
+      font-size: 18px;
+      color: #F66B23;
+      padding: 5px; }
+      header .botones .fa-rss:hover {
+        font-weight: bold;
+        color: #ac3f07; }
+    header .botones .search {
+      background-color: transparent;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      padding: 5px;
+      font-weight: bold; }
+      header .botones .search:hover {
+        background-color: #b7b7b7; }
+
+section {
+  padding: 2% 0% 2% 0%; }
+
+nav .container {
+  background-color: #B61D1D; }
+  nav .container ul {
+    padding: 0%;
+    margin-bottom: 0%;
+    text-align: center; }
+    nav .container ul li {
+      display: inline-block;
+      padding: 10px 5px 5px 5px; }
+      nav .container ul li a {
+        color: white;
+        font-family: Oswald;
+        padding: 8px 8px 5px 8px; }
+        nav .container ul li a i {
+          padding: 5px; }
+        nav .container ul li a:hover {
+          text-decoration: none;
+          background-color: #741212;
+          font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */
