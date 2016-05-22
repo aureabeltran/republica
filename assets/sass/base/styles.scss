@@ -31,4 +31,51 @@
 //**fin home**//
 
 /* Inicio Columnistas */
+.colum {
+	h5 {
+		text-transform: uppercase;
+		color: gray;
+	}
+}
+.square-colum {
+	border: 2px solid $main-gray;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	h5{
+		margin-top: 12px;
+		font-size: 10px;
+	}
+	h3 {
+		margin: -5px 0 30px 0;
+		font-size: 14px;
+		font-weight: bolder;
+	}
+	.square-gray {
+		background-color: #DDE0E4;
+		padding: 5px;
+		color: #1f1f1f;
+		img {
+			box-shadow: 0 2px 5px #000;
+			float: left;
+			margin: 10px;
+			border: 2px solid white;
+		}
+		.detail {
+			display: inline;
+			text-align: left;
+			h4 {
+				font-size: 14px;
+			}
+			.claro {
+				color: #576571;
+				padding-bottom: 10px;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+	}
+}
+.heaquiunpd {
+	padding-bottom: 15px;
+}
 /* Termino Columnistas */
