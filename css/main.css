@@ -38,7 +38,7 @@ img {
   text-align: center;
   font-size: 50px; }
 .home .cambiar {
-  width: 95%;
+  width: 100%;
   margin-top: 20px; }
 .home .imagenes-iconos {
   text-align: center; }
@@ -48,12 +48,12 @@ img {
       padding: 5px;
       color: black;
       font-size: 12px; }
-.home .section-news {
+.home .columnistas {
   background-color: #D0D0D0;
   border-top: 5px solid #B61D1D;
   margin: 2% 0% 2% 0%;
   text-align: center; }
-  .home .section-news h5 {
+  .home .columnistas h5 {
     padding: 10px;
     color: white;
     background-color: #B61D1D;
@@ -61,15 +61,20 @@ img {
     font-weight: bold;
     font-family: oswald;
     font-size: 20px; }
-  .home .section-news img {
+  .home .columnistas img {
     width: 100%; }
-  .home .section-news h6 {
+  .home .columnistas h6 {
     font-size: 10px; }
-  .home .section-news p {
+  .home .columnistas p {
     font-weight: bold;
     font-size: 11px; }
-  .home .section-news .puntos i {
+  .home .columnistas .puntos i {
     color: #B61D1D; }
+.home .banners .photos-noticias img {
+  margin-bottom: 20px;
+  height: 280px; }
+.home .banners img {
+  width: 100%; }
 .home .news {
   border-bottom: 1px solid #D0D0D0; }
   .home .news .noticias-iconos ol {
@@ -93,6 +98,35 @@ img {
           .home .news .noticias-iconos ol li a .fa-camera:hover {
             font-weight: bold;
             color: #5e0f0f; }
+.home .dashed {
+  border-right: 5px dotted #D0D0D0;
+  border-bottom: 5px dotted #D0D0D0;
+  border-left: 5px dotted #D0D0D0;
+  text-align: center; }
+  .home .dashed .muevete {
+    margin-top: -25px;
+    width: 20%;
+    height: 20%; }
+  .home .dashed img {
+    width: 100%;
+    height: 40px; }
+  .home .dashed span {
+    font-weight: bold; }
+  .home .dashed input {
+    width: 80%;
+    background-color: #D0D0D0; }
+    .home .dashed input:focus {
+      font-weight: bold;
+      font-family: oswald; }
+  .home .dashed button {
+    width: 80%;
+    background-color: #B61D1D;
+    margin: 5px 0px 10px 0px;
+    color: white;
+    padding: 5px; }
+    .home .dashed button:hover {
+      font-weight: bold;
+      background-color: #741212; }
 
 header {
   background-color: #D0D0D0;

@@ -33,7 +33,7 @@
 		font-size: 50px;
 	}
 	.cambiar{
-		width: 95%;
+		width: 100%;
 		margin-top: 20px;
 	}
 	.imagenes-iconos{
@@ -49,7 +49,7 @@
 			}
 		}
 	}
-	.section-news{
+	.columnistas{
 		background-color: $main-gray;
 		border-top: 5px solid $main-red;
 		margin: 2% 0% 2% 0%;
@@ -79,6 +79,17 @@
 			}
 		}
 	}
+	.banners{
+		.photos-noticias{
+			img{
+				margin-bottom: 20px;
+				height: 280px;
+			}
+		}
+		img{
+			width: 100%;
+		}
+	}
 	.news{
 		border-bottom: 1px solid $main-gray;
 		.noticias-iconos{
@@ -98,6 +109,35 @@
 					}
 				}
 			}
+		}
+	}
+	.dashed{
+		border-right: 5px dotted $main-gray;
+		border-bottom: 5px dotted $main-gray;
+		border-left: 5px dotted $main-gray;
+		text-align: center;
+		.muevete{
+			margin-top: -25px;
+			width: 20%;
+			height: 20%;
+		}
+		img{
+			width: 100%;
+			height: 40px;
+		}
+		span{
+			font-weight: bold;
+		}
+		input{
+			width: 80%;
+			background-color: $main-gray;
+			&:focus{
+				font-weight: bold;
+				font-family: oswald;
+			}
+		}
+		button{
+			@include botones-simples(80%, $main-red, 5px 0px 10px 0px);
 		}
 	}
 }
