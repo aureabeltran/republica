@@ -21,4 +21,10 @@
 		background-color: darken($color-boton, 15%);
 	}
 }
-//**mixin para noticias**//
+//**mixin para barras**//
+@mixin bar($widht, $color-bar){
+	width: $widht;
+	background-color: $color-bar;
+	height: 30px;
+	margin: 10px 0px 10px 0px;
+}
