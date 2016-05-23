@@ -1,3 +1,4 @@
+//**Esto es para botones con iconos**//
 @mixin colores-iconos($colores){
 	font-size: 18px;
 	color: $colores;
@@ -7,4 +8,23 @@
 		color: darken($colores, 20%);
 	}
 }
+//**Esto es para botones simples*//
 
+@mixin botones-simples($botones, $color-boton, $margin){
+	width: $botones;
+	background-color: $color-boton;
+	margin: $margin;
+	color: white;
+	padding: 5px;
+	&:hover{
+		font-weight: bold;
+		background-color: darken($color-boton, 15%);
+	}
+}
+//**mixin para barras**//
+@mixin bar($widht, $color-bar){
+	width: $widht;
+	background-color: $color-bar;
+	height: 30px;
+	margin: 10px 0px 10px 0px;
+}
