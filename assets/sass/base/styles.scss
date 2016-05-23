@@ -32,10 +32,6 @@
 		text-align: center;
 		font-size: 50px;
 	}
-	.cambiar{
-		width: 100%;
-		margin-top: 20px;
-	}
 	.imagenes-iconos{
 		text-align: center;
 		ol{
@@ -49,16 +45,32 @@
 			}
 		}
 	}
+	.grid{
+		p{
+			color: white;
+			margin: -60px 10px 10px 10px;
+			font-weight: bold;
+			font-family: Oswald;
+			font-size: 18px;
+			text-shadow: 3px 2px 0px darken($main-gray, 40%);
+		}
+		.cambiar{
+			height: 250px;
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
 	.columnistas{
-		background-color: $main-gray;
+		background-color: lighten($main-gray, 10%);
 		border-top: 5px solid $main-red;
-		margin: 2% 0% 2% 0%;
+		margin: 20px 0px 20px 0px;
 		text-align: center;
+		padding-bottom: 20px;
 		h5{
 			padding: 10px;
 			color: white;
 			background-color: $main-red;
-			margin: -10px 40% 0% 40%;
+			margin: -10px 40% 3% 40%;
 			font-weight: bold;
 			font-family: oswald;
 			font-size: 20px;
@@ -76,6 +88,9 @@
 		.puntos{
 			i{
 				color: $main-red;
+				&.especial{
+					color: $main-gray;
+				}
 			}
 		}
 	}
@@ -83,7 +98,32 @@
 		.photos-noticias{
 			img{
 				margin-bottom: 20px;
-				height: 280px;
+			}
+			.recuadro{
+				border: 1px solid $main-gray;
+				padding: 5px;
+				margin: 5px 0px 5px 0px;
+				h4{
+					color: $main-red;
+					text-align: center;
+				}
+				p{	
+					color: white;
+					text-shadow: 3px 3px 0px darken($main-gray, 60%);
+					margin: -90px 10px 0px 10px;
+					font-weight: bold;
+					font-family: Oswald;
+					font-size: 17px;
+				}
+				.text-align{
+					padding: 10px;
+					h5{
+						text-align: center;
+						&.static{
+							margin-top: 35px;
+						}
+					}
+				}
 			}
 		}
 		img{
@@ -112,14 +152,20 @@
 		}
 	}
 	.dashed{
+		padding: 5px;
+		margin: 20px 0px 20px 0px;
 		border-right: 5px dotted $main-gray;
 		border-bottom: 5px dotted $main-gray;
 		border-left: 5px dotted $main-gray;
 		text-align: center;
-		.muevete{
+		.img-centrada{
 			margin-top: -25px;
 			width: 20%;
 			height: 20%;
+		}
+		.autito{
+			height: 200px;
+			margin: 10px 0px 10px 0px;
 		}
 		img{
 			width: 100%;
@@ -147,11 +193,15 @@
 			font-family: Oswald;
 			@include botones-simples(80%, $main-red, 5px 0px 10px 0px);
 		}
+		a{
+			color: $main-red;
+			font-weight: bold;
+			&:hover{
+				color: lighten($main-red, 20%);
+			}
+		}
 		.dotted{
 			border-top: 5px dotted $main-gray;
-			border-right: 5px dotted $main-gray;
-			border-bottom: 5px dotted $main-gray;
-			border-left: 5px dotted $main-gray;
 			padding: 20px 0px 20px 0px;
 			.progress-bar-green{
 				@include bar(55%, #99CAA1);
@@ -170,25 +220,49 @@
 	}
 	.border-news{
 		font-weight: bold;
-		padding: 5px;
+		padding: 10px 5px 10px 5px;
 		border: 1px solid $main-gray;
-		margin: 10px 0px 20px 0px;
+		margin: 30px 0px 30px 0px;
 		.logo{
 			margin-left: 30%;
+			width: 40%;
 		}
 		img{
-			margin: 10px 0px 10px 0px
+			margin: 10px 0px 10px 0px;
+			width: 100%;
+		}
+		.red{
+			&:hover{
+			border-bottom: 5px solid $main-red;
+			}
+		}
+		.yellow{
+			&:hover{
+			border-bottom: 5px solid #FFE92B;
+			}
+		}
+		.pink{
+			&:hover{
+			border-bottom: 5px solid #DD81D9;
+			}
 		}
 		h5{
-			margin: 0% 27% 0% 20%;
+			margin: 0% 25% 0% 20%;
 			&:hover{
-				border-bottom: 5px solid #9A3CB9;
+				border-bottom: 5px solid #8529AA;
 			}
-			
+				a{
+				color: $main-red;
+				font-weight: bold;
+				&:hover{
+					color: lighten($main-red, 20%);
+				}
+			}	
 		}
 	}
 	.fotos-destacadas{
-		margin: 10px 0px 20px 0px;
+		padding: 10px 0px 10px 0px;
+		margin: 20px 0px 20px 0px;
 		border-top: 5px solid darken($main-gray, 30%);
 		border-bottom: 1px solid $main-gray;
 		img{
@@ -212,6 +286,7 @@
 		border-top: 5px solid darken($main-gray, 30%);
 		border-bottom: 1px solid $main-gray;
 		margin: 20px 0px 20px 0px;
+		padding: 10px 0px 10px 0px;
 		h4{
 			color: white;
 			margin: -10px 33% 20px 30%;
