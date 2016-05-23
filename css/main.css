@@ -332,6 +332,27 @@ img {
     .home .edicion a:hover {
       color: #e45555; }
 
+.contacto ul {
+  padding: 0%;
+  background-color: #D0D0D0;
+  border-radius: 10px; }
+  .contacto ul .boton-negro {
+    background: black;
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px; }
+    .contacto ul .boton-negro a {
+      color: white; }
+      .contacto ul .boton-negro a:hover {
+        background: #333333; }
+  .contacto ul li {
+    display: inline-block; }
+    .contacto ul li a {
+      padding: 5px;
+      color: black;
+      font-size: 12px; }
+      .contacto ul li a:hover {
+        background-color: #b7b7b7; }
+
 header {
   background-color: #D0D0D0;
   padding: 1% 0% 2% 0%;

@@ -403,3 +403,33 @@
 	}
 }
 //**fin home**//
+//**Contacto**//
+.contacto{
+	ul{
+		padding: 0%;
+		background-color: $main-gray;
+		border-radius: 10px;
+		.boton-negro{
+			background: black;
+			padding: 5px;
+			border-radius: 10px 0px 0px 10px;
+			a{
+				color: white;
+				&:hover{
+					background: lighten(black, 20%);
+				}
+			}
+		}
+		li{
+			display: inline-block;
+			a{
+				padding:5px;
+				color: black;
+				font-size: 12px;
+				&:hover{
+					background-color: darken($main-gray, 10%);
+				}
+			}
+		}
+	}
+}
