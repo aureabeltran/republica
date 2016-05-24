@@ -1,0 +1,33 @@
+footer {
+	background-color: $bg-column;
+	padding: 25px;
+	.footer-republic {
+		float: right;
+		h4 {
+			font-size: 14px;
+			font-weight: bolder;
+		}
+		p {
+			font-size: 12px;
+		}
+		.derechos-reservados {
+			font-size: 12px;
+		}
+	}
+	.lista-footer {
+		border-left: 2px solid white;
+		ul {
+			display:inline-block;
+			font-size: 12px;
+		}
+	}
+	.lista-final-footer {
+		border-top: 2px solid white;
+		li {
+			padding: 3px;
+			display:inline-block;
+			font-size: 10px;
+			border-right: 1px solid gray;
+		}
+	}
+}

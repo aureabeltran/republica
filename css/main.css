@@ -164,7 +164,8 @@ img {
     background-color: #B61D1D;
     margin: 5px 0px 10px 0px;
     color: white;
-    padding: 5px; }
+    padding: 5px;
+    font-weight: bold; }
     .home .dashed button:hover {
       font-weight: bold;
       background-color: #741212; }
@@ -352,6 +353,44 @@ img {
       font-size: 12px; }
       .contacto ul li a:hover {
         background-color: #b7b7b7; }
+.contacto h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px; }
+.contacto .apartado {
+  margin: 30px 0px 20px 0px;
+  padding: 0% 15% 0% 20%; }
+  .contacto .apartado .form {
+    height: 30px;
+    width: 90%;
+    background-color: #f6f6f6;
+    margin: 8px 0px 8px 0px;
+    border-radius: 5px; }
+.contacto h3 {
+  font-weight: bold;
+  margin-left: 20%; }
+.contacto .options {
+  padding: 0% 15% 0% 20%; }
+.contacto textarea {
+  margin-left: 20%;
+  background-color: #f6f6f6;
+  margin-top: 30px; }
+.contacto .caja-botton {
+  padding-left: 40%; }
+  .contacto .caja-botton button {
+    margin-left: 20%;
+    font-family: Oswald;
+    width: 30%;
+    background-color: black;
+    margin: 5px 0px 10px 0px;
+    color: white;
+    padding: 5px;
+    font-weight: bold; }
+    .contacto .caja-botton button:hover {
+      font-weight: bold;
+      background-color: black; }
+    .contacto .caja-botton button:hover {
+      background-color: #B61D1D; }
 
 header {
   background-color: #D0D0D0;
@@ -440,5 +479,30 @@ nav .container {
           text-decoration: none;
           background-color: #741212;
           font-weight: bold; }
+
+footer {
+  background-color: #DDE0E4;
+  padding: 25px; }
+  footer .footer-republic {
+    float: right; }
+    footer .footer-republic h4 {
+      font-size: 14px;
+      font-weight: bolder; }
+    footer .footer-republic p {
+      font-size: 12px; }
+    footer .footer-republic .derechos-reservados {
+      font-size: 12px; }
+  footer .lista-footer {
+    border-left: 2px solid white; }
+    footer .lista-footer ul {
+      display: inline-block;
+      font-size: 12px; }
+  footer .lista-final-footer {
+    border-top: 2px solid white; }
+    footer .lista-final-footer li {
+      padding: 3px;
+      display: inline-block;
+      font-size: 10px;
+      border-right: 1px solid gray; }
 
 /*# sourceMappingURL=main.css.map */
